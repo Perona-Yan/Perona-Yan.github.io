@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>晏晓宇的个人中心</title>
+    <link rel="stylesheet" href="css/homeStyle.css">
+</head>
+<body>
+    <div id="container">
+        <!-- 照片简介区域 -->
+        <div id="person">  
+            <img src="img/TIM图片20200606124651.jpg" alt="photo" width="180" height="180" id="photo">
+            <p id="name">晏晓宇
+            <img src="img/sex.png" id="sex" alt="sex" width="30" height="30">  
+            </p>
+            <br>
+            <p id="school">中南财经政法大学</p>
+        </div>
+        <br>
+         <!--导航栏-->
+        <div id="naver" class="wrapper">
+            <div class="naver-content">
+                <ul class="navigation" >
+                    <li class="content">
+                        <a href="#educationTable"><span class="name">成长经历</span></a>                 
+                    </li>
+
+                    <li class="content">
+                        <a href="interesting.html"><span class="name">兴趣爱好</span></a>                    
+                    </li>
+
+                    <li class="content">
+                        <a href="photoalbum.html"><span class="name">个人相册</span></a>                   
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+
+        <!-- 成长经历 -->
+        <div id="educationTable">
+            <table border="1">
+                <caption>教育经历</caption>  
+                <tr>
+                    <th>时间</th>
+                    <th>照片</th>
+                    <th>就读学校</th>
+                </tr>   
+                <tr><!-- 行 -->
+                    <td>2006~2012</td>
+                    
+                    <td><img src="img/school/三小.jpg" alt="" height="100" width="150"></td>
+                    <td>钢城三小</td>
+                </tr>
+                <tr>
+                    <td>2012~2015</td>
+                     
+                    <td><img src="img/school/五中.jpg" alt="" width="150" height="100"></td>
+                    <td>钢城五中</td>
+                </tr>
+                <tr>
+                    <td>2015~2018</td>
+                    
+                    <td><img src="img/school/三中.jpg" alt="" width="150" height="100"></td>
+                    <td>武钢三中</td>
+                </tr>
+                <tr>
+                    <td>2018~至今</td>
+                    <td><img src="img/school/财大.jpg" alt="" width="150" height="100"></td>
+                    <td>中南财经政法大学</td>
+                </tr>
+            </table>
+        </div>
+        
+        
+    </div>
+    
+    <div class="bottom">
+        <div id="chat">
+            <h1>联系方式</h1>
+            <br>
+            <ul>
+                <li>
+                    <img src="img/bottom/phone.png" alt="" width="30" height="30" class="imgimg">
+                    <p>  电话：13277901256</p>  
+                </li>
+                <br>
+                <li>
+                    <img src="img/bottom/location.png" alt="" width="30" height="30" class="imgimg">
+                    <p>  地址：武汉市中南财经政法大学临湖</p>
+                </li>
+                <br>
+                <li>
+                    <img src="img/bottom/email.png" alt="" width="30" height="30" class="imgimg">
+                    <p>  邮箱：1015127952@qq.com</p>
+                </li>
+                <br>
+            </ul>
+        </div>
+        <div id="social">
+           <form action="imformation">
+                访客姓名：
+                <input type="text" name="name" value="" required>
+                <br><br>
+               性别：
+                 男   <input type="radio" name="sex">
+                 女    <input type="radio" name="sex">
+               <br><br>
+                与我关系：
+                <select name="" id="">
+                    <option value="relation">同学</option>
+                    <option value="relation">朋友</option>
+                    <option value="relation">亲戚</option>
+                    <option value="relation">其他</option>
+                </select>
+                <br><br>
+                留言： <br>
+                <textarea name="" id="" cols="50" rows="6">在这里输入内容</textarea>
+                <br>
+                <input type="submit" value="提交">
+                <input type="reset" value="重置">
+           </form>
+        </div>
+    </div>
+    <div id="time">
+        <p>@2020.6.8.Wuhan Perona made.</p>
+        <img src="img/bottom/TIM图片20200612143438.png" alt="" width="250" height="50">
+    </div>
+</body>
+</html>
